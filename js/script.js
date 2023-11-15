@@ -5,24 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
       "https://i.pinimg.com/originals/e8/31/fd/e831fd4042b3be42dd7255d9f7fdc234.jpg"
     ];
   
-    function adicionarFilme() {
-      var nomeInput = document.getElementById("nome");
-      var urlInput = document.getElementById("url");
-  
-      var nome = nomeInput.value;
-      var url = urlInput.value;
-  
-      if (nome && url) {
-        nomeFilmes.push(nome);
-        posterFilmes.push(url);
-        atualizarFilmes();
-        // Limpa os campos de entrada
-        nomeInput.value = "";
-        urlInput.value = "";
-      } else {
-        alert("Por favor, preencha todos os campos.");
-      }
-    }
   
     function atualizarFilmes() {
       var containerTodosFilmes = document.getElementById("containerTodosFilmes");
