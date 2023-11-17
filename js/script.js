@@ -1,7 +1,9 @@
-var nomeFilmes = ["Evil Dead II", "Spider-man 2"];
+var nomeFilmes = ["Evil Dead II", "Spider-man 2", "Star Wars: Episode III - Revenge of the Sith", "Get Out"];
 var posterFilmes = [
   "https://static.wikia.nocookie.net/evildead/images/5/55/Evil-dead-2.jpeg",
-  "https://i.pinimg.com/originals/e8/31/fd/e831fd4042b3be42dd7255d9f7fdc234.jpg"
+  "https://i.pinimg.com/originals/e8/31/fd/e831fd4042b3be42dd7255d9f7fdc234.jpg",
+  "https://upload.wikimedia.org/wikipedia/pt/5/58/Star_Wars_Epis%C3%B3dio_III_A_Vingan%C3%A7a_dos_Sith.jpg",
+  "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_.jpg"
 ];
 
 function adicionarFilme() {
